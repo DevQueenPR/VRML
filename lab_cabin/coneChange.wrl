@@ -1,0 +1,17 @@
+#VRML V2.0 utf8 
+#Genesis Ojeda 
+#Changes
+
+Shape{
+	appearance Appearance{
+		material Material{
+		#Change 1
+			diffuseColor 0.4, 0.122, 0.678
+		}
+	}
+	geometry Cone{
+		bottomRadius 5
+		#Change 2
+		height 8.5
+	}
+}

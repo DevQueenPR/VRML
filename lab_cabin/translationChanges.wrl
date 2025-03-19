@@ -1,0 +1,35 @@
+#VRML V2.0 utf8
+#Genesis Ojeda
+#Changes
+
+Shape {
+	geometry Cylinder {
+	#Change 1
+		radius 5.5
+		height 15.0
+	}
+	appearance Appearance {
+		material Material {diffuseColor 0.7 1 0.9}
+	}
+	}
+
+Transform {
+	translation 10 0 0
+	children [
+		Shape{
+			geometry Sphere {
+			radius 3.0
+			}
+			appearance Appearance {
+			#Change 2
+				material Material {
+					diffuseColor 0.65 0.32 0.17  # Brown color
+					specularColor 0.1 0.1 0.1    # Subtle reflections
+					ambientIntensity 0.3         # Ambient Lightning
+					shininess 0.2                # Moderate Brightness
+					transparency 0.0             # No transparency
+					}
+				}
+			}
+		]
+}

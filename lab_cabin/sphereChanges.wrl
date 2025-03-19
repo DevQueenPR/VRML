@@ -1,0 +1,16 @@
+#VRML V2.0 utf8
+#Genesis Ojeda
+#Changes
+
+Shape{
+	appearance Appearance{
+		material Material{
+		#Change1
+		diffuseColor 0.42, 0.91, 0.82
+		}
+	}
+geometry Sphere {
+	#Change2
+	radius 10.5
+	}
+}
