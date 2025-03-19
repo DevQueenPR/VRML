@@ -1,0 +1,17 @@
+#VRML V2.0 utf8
+#Genesis Ojeda
+#Changes
+
+Shape{
+	appearance Appearance{
+		material Material{
+		#Change1
+			diffuseColor 0.871, 0.306, 0.353
+		}
+	}
+	geometry Cylinder {
+		radius 6.0
+		#Change2
+		height 12.0
+	}
+}

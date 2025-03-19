@@ -1,0 +1,19 @@
+#VRML V2.0 utf8
+#Genesis Ojeda
+#Changes
+
+DEF box Transform{
+	translation 0 0 0
+		children[
+			Shape{
+				appearance Appearance{
+					material Material {
+					#Change1
+						diffuseColor 0.322, 0.478, 0.569
+					}
+			}
+			#Change 2
+			geometry Box {size 1 1 10}
+		}
+	]
+}
